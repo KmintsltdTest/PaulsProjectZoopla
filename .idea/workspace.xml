@@ -3,8 +3,20 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ab45cb-61e4-48cb-9666-f04938986535" name="Default Changelist" comment="" />
+    <list default="true" id="f5ab45cb-61e4-48cb-9666-f04938986535" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Features/CustomerCanSearchForPropertiesForSale" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,6 +65,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="2239" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610770742037">
+      <screen x="1920" y="0" width="1280" height="693" />
+    </state>
+    <state x="2239" y="143" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1610770742037" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1610768105610">
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
@@ -68,5 +85,9 @@
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1610768105610" />
+    <state x="2062" y="0" key="SettingsEditor" timestamp="1610770884193">
+      <screen x="1920" y="0" width="1280" height="693" />
+    </state>
+    <state x="2062" y="0" key="SettingsEditor/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1610770884193" />
   </component>
 </project>
