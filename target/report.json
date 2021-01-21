@@ -1,0 +1,897 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User navigates to Zoopla",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6383530700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Zoopla Homepage",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_am_on_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-21T15:14:26.816Z",
+        "line": 21,
+        "name": "Customer can search for properties for sale.",
+        "description": "",
+        "id": "search-properties-for-sale;customer-can-search-for-properties-for-sale.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter  \"London\"in the search textbox",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_enter_london_in_the_search_textbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 845100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select \"£300,000\"from Min price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300,000",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_min_price_dropdown(java.lang.Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select \"£550,000\"from Max price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "550,000",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_max_price_dropdown(java.lang.Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select \"Houses\"from Property type dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_houses_from_property_type_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select \"3+\"from Bedrooms dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 10
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_from_bedrooms_dropdown(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "a list of \"Houses\" in \"London\" are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Houses\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 22
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "application should be closed.",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User navigates to Zoopla",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5027752400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Zoopla Homepage",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_am_on_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-21T15:14:33.336Z",
+        "line": 22,
+        "name": "Customer can search for properties for sale.",
+        "description": "",
+        "id": "search-properties-for-sale;customer-can-search-for-properties-for-sale.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I enter  \"Birmingham\"in the search textbox",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select \"£200,000\"from Min price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200,000",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_min_price_dropdown(java.lang.Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select \"£500,000\"from Max price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500,000",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_max_price_dropdown(java.lang.Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select \"Houses\"from Property type dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_houses_from_property_type_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I select \"3+\"from Bedrooms dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 10
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_from_bedrooms_dropdown(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "a list of \"Houses\" in \"Birmingham\" are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Houses\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Birmingham\"",
+                  "offset": 22
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 275100,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "application should be closed.",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User navigates to Zoopla",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5364443800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Zoopla Homepage",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_am_on_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-21T15:14:38.385Z",
+        "line": 23,
+        "name": "Customer can search for properties for sale.",
+        "description": "",
+        "id": "search-properties-for-sale;customer-can-search-for-properties-for-sale.;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I enter  \"Coventry\"in the search textbox",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select \"£200,000\"from Min price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200,000",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_min_price_dropdown(java.lang.Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select \"£300,000\"from Max price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300,000",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_max_price_dropdown(java.lang.Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select \"Houses\"from Property type dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_houses_from_property_type_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I select \"3+\"from Bedrooms dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 10
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_from_bedrooms_dropdown(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "a list of \"Houses\" in \"Coventry\" are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Houses\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Coventry\"",
+                  "offset": 22
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "application should be closed.",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User navigates to Zoopla",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5242400900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Zoopla Homepage",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_am_on_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-21T15:14:43.767Z",
+        "line": 37,
+        "name": "Customer can search for properties for sale.",
+        "description": "",
+        "id": "search-properties-for-sale;customer-can-search-for-properties-for-sale.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I enter a \"London\"in the search textbox",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I select \"£200,000\"from Min price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200,000",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_min_price_dropdown(java.lang.Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I select \"£450,000\"from Max price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "450,000",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_max_price_dropdown(java.lang.Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I select \"Houses\"from Property type dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_houses_from_property_type_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I select \"3+\"from Bedrooms dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 10
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_from_bedrooms_dropdown(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "a list of \"Houses\" in \"London\" are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Houses\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 22
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "application should be closed.",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User navigates to Zoopla",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5268244500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Zoopla Homepage",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_am_on_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-21T15:14:49.023Z",
+        "line": 38,
+        "name": "Customer can search for properties for sale.",
+        "description": "",
+        "id": "search-properties-for-sale;customer-can-search-for-properties-for-sale.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I enter a \"Birmingham\"in the search textbox",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 883400,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I select \"£200,000\"from Min price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200,000",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_min_price_dropdown(java.lang.Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I select \"£400,000\"from Max price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400,000",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_max_price_dropdown(java.lang.Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I select \"Houses\"from Property type dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_houses_from_property_type_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I select \"3+\"from Bedrooms dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 10
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_from_bedrooms_dropdown(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "a list of \"Houses\" in \"Birmingham\" are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Houses\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Birmingham\"",
+                  "offset": 22
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "application should be closed.",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User navigates to Zoopla",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6295703100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Zoopla Homepage",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_am_on_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-21T15:14:54.311Z",
+        "line": 39,
+        "name": "Customer can search for properties for sale.",
+        "description": "",
+        "id": "search-properties-for-sale;customer-can-search-for-properties-for-sale.;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I enter a \"Coventry\"in the search textbox",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I select \"£250,000\"from Min price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "250,000",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_min_price_dropdown(java.lang.Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I select \"£300,000\"from Max price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300,000",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_max_price_dropdown(java.lang.Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 467600,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I select \"Houses\"from Property type dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_houses_from_property_type_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I select \"3+\"from Bedrooms dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 10
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_from_bedrooms_dropdown(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "a list of \"Houses\" in \"Coventry\" are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Houses\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Coventry\"",
+                  "offset": 22
+                }
+              ],
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "application should be closed.",
+            "match": {
+              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Properties for Sale",
+    "description": "         As a customer I want the ability to search for a property for sale\n\t     so that I can purchase the property.",
+    "id": "search-properties-for-sale",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/co/uk/Zoopla/Features/CustomerCanSEarchForPropertyForSale.feature",
+    "tags": []
+  }
+]
