@@ -7,11 +7,9 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features={"src/test/java/co/uk/Zoopla/Features"}
         ,plugin = {"pretty","json:target/report.json","de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"}
-        ,glue={"co/uk/Zoopla/StepsDefinitions"}
-        ,tags ={~@ignored})
-
+        ,glue={"src/test/java/co/uk/Zoopla/StepsDefinition","co/uk/Zoopla/hooks"}
+         )
 //By Running the TestRunner stepsDefinition will automatically be generated
 public class TestRunner
 {
-
 }

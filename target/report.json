@@ -11,143 +11,108 @@
         "steps": [
           {
             "result": {
-              "duration": 6383530700,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
             "name": "I am on Zoopla Homepage",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_am_on_zoopla_homepage()"
-            },
+            "match": {},
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-21T15:14:26.816Z",
-        "line": 21,
+        "start_timestamp": "2021-01-28T20:25:17.650Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6783407800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.hooks.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
         "name": "Customer can search for properties for sale.",
         "description": "",
         "id": "search-properties-for-sale;customer-can-search-for-properties-for-sale.;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:7715\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027PAUL\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)\r\n\tat co.uk.Zoopla.Common.BrowserClass.quitBrowser(BrowserClass.java:101)\r\n\tat co.uk.Zoopla.hooks.hooks.tearDown(hooks.java:22)\r\nCaused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:7715\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)\r\n\tat okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)\r\n\tat okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)\r\n\tat okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)\r\n\tat okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)\r\n\tat co.uk.Zoopla.Common.BrowserClass.quitBrowser(BrowserClass.java:101)\r\n\tat co.uk.Zoopla.hooks.hooks.tearDown(hooks.java:22)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)\r\n\tat io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)\r\n\tat io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:110)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\nCaused by: java.net.ConnectException: Connection refused: no further information\r\n\tat java.base/sun.nio.ch.Net.pollConnect(Native Method)\r\n\tat java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)\r\n\tat java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)\r\n\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)\r\n\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)\r\n\tat java.base/java.net.Socket.connect(Socket.java:648)\r\n\tat okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)\r\n\t... 63 more\r\n",
+              "duration": 4854455700,
+              "status": "failed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.hooks.hooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 10,
+            "line": 9,
             "name": "I enter  \"London\"in the search textbox",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_enter_london_in_the_search_textbox()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 845100,
-              "status": "passed"
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I select \"£300,000\"from Min price dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
             "line": 11,
-            "name": "I select \"£300,000\"from Min price dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "300,000",
-                  "offset": 11
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_min_price_dropdown(java.lang.Double)"
-            },
+            "name": "I select \"£550,000\"from Max price dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
-            "name": "I select \"£550,000\"from Max price dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "550,000",
-                  "offset": 11
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_max_price_dropdown(java.lang.Double)"
-            },
+            "name": "I select \"Houses\"from Property type dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
-            "name": "I select \"Houses\"from Property type dropdown",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_houses_from_property_type_dropdown()"
-            },
+            "name": "I select \"3+\"from Bedrooms dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 153300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
-            "name": "I select \"3+\"from Bedrooms dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 10
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_from_bedrooms_dropdown(java.lang.Integer)"
-            },
+            "name": "I click on Search button",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
-            "name": "I click on Search button",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 16,
             "name": "a list of \"Houses\" in \"London\" are displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Houses\"",
-                  "offset": 10
-                },
-                {
-                  "val": "\"London\"",
-                  "offset": 22
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "application should be closed.",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.application_should_be_closed()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -161,32 +126,51 @@
         "steps": [
           {
             "result": {
-              "duration": 5027752400,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
             "name": "I am on Zoopla Homepage",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_am_on_zoopla_homepage()"
-            },
+            "match": {},
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-21T15:14:33.336Z",
-        "line": 22,
+        "start_timestamp": "2021-01-28T20:25:29.411Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5591478600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.hooks.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
         "name": "Customer can search for properties for sale.",
         "description": "",
         "id": "search-properties-for-sale;customer-can-search-for-properties-for-sale.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 737756200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.hooks.hooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 10,
+            "line": 9,
             "name": "I enter  \"Birmingham\"in the search textbox",
             "match": {},
             "keyword": "When "
@@ -195,17 +179,18 @@
             "result": {
               "status": "skipped"
             },
-            "line": 11,
+            "line": 10,
             "name": "I select \"£200,000\"from Min price dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "200,000",
-                  "offset": 11
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_min_price_dropdown(java.lang.Double)"
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
+            "line": 11,
+            "name": "I select \"£500,000\"from Max price dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -213,16 +198,8 @@
               "status": "skipped"
             },
             "line": 12,
-            "name": "I select \"£500,000\"from Max price dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "500,000",
-                  "offset": 11
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_max_price_dropdown(java.lang.Double)"
-            },
+            "name": "I select \"Houses\"from Property type dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -230,10 +207,8 @@
               "status": "skipped"
             },
             "line": 13,
-            "name": "I select \"Houses\"from Property type dropdown",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_houses_from_property_type_dropdown()"
-            },
+            "name": "I select \"3+\"from Bedrooms dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -241,16 +216,8 @@
               "status": "skipped"
             },
             "line": 14,
-            "name": "I select \"3+\"from Bedrooms dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 10
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_from_bedrooms_dropdown(java.lang.Integer)"
-            },
+            "name": "I click on Search button",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -258,43 +225,8 @@
               "status": "skipped"
             },
             "line": 15,
-            "name": "I click on Search button",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 16,
             "name": "a list of \"Houses\" in \"Birmingham\" are displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Houses\"",
-                  "offset": 10
-                },
-                {
-                  "val": "\"Birmingham\"",
-                  "offset": 22
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 275100,
-              "status": "skipped"
-            },
-            "line": 17,
-            "name": "application should be closed.",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.application_should_be_closed()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -308,32 +240,52 @@
         "steps": [
           {
             "result": {
-              "duration": 5364443800,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
             "name": "I am on Zoopla Homepage",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_am_on_zoopla_homepage()"
-            },
+            "match": {},
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-21T15:14:38.385Z",
-        "line": 23,
+        "start_timestamp": "2021-01-28T20:25:35.754Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5578662200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.hooks.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
         "name": "Customer can search for properties for sale.",
         "description": "",
         "id": "search-properties-for-sale;customer-can-search-for-properties-for-sale.;;4",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:30551\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027PAUL\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)\r\n\tat co.uk.Zoopla.Common.BrowserClass.quitBrowser(BrowserClass.java:101)\r\n\tat co.uk.Zoopla.hooks.hooks.tearDown(hooks.java:22)\r\nCaused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:30551\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)\r\n\tat okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)\r\n\tat okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)\r\n\tat okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)\r\n\tat okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)\r\n\tat co.uk.Zoopla.Common.BrowserClass.quitBrowser(BrowserClass.java:101)\r\n\tat co.uk.Zoopla.hooks.hooks.tearDown(hooks.java:22)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)\r\n\tat io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)\r\n\tat io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:110)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\nCaused by: java.net.ConnectException: Connection refused: no further information\r\n\tat java.base/sun.nio.ch.Net.pollConnect(Native Method)\r\n\tat java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)\r\n\tat java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)\r\n\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)\r\n\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)\r\n\tat java.base/java.net.Socket.connect(Socket.java:648)\r\n\tat okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)\r\n\t... 63 more\r\n",
+              "duration": 4938145200,
+              "status": "failed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.hooks.hooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 10,
+            "line": 9,
             "name": "I enter  \"Coventry\"in the search textbox",
             "match": {},
             "keyword": "When "
@@ -342,17 +294,18 @@
             "result": {
               "status": "skipped"
             },
-            "line": 11,
+            "line": 10,
             "name": "I select \"£200,000\"from Min price dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "200,000",
-                  "offset": 11
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_min_price_dropdown(java.lang.Double)"
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
+            "line": 11,
+            "name": "I select \"£300,000\"from Max price dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -360,16 +313,8 @@
               "status": "skipped"
             },
             "line": 12,
-            "name": "I select \"£300,000\"from Max price dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "300,000",
-                  "offset": 11
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_max_price_dropdown(java.lang.Double)"
-            },
+            "name": "I select \"Houses\"from Property type dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -377,10 +322,8 @@
               "status": "skipped"
             },
             "line": 13,
-            "name": "I select \"Houses\"from Property type dropdown",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_houses_from_property_type_dropdown()"
-            },
+            "name": "I select \"3+\"from Bedrooms dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -388,16 +331,8 @@
               "status": "skipped"
             },
             "line": 14,
-            "name": "I select \"3+\"from Bedrooms dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 10
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_from_bedrooms_dropdown(java.lang.Integer)"
-            },
+            "name": "I click on Search button",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -405,42 +340,8 @@
               "status": "skipped"
             },
             "line": 15,
-            "name": "I click on Search button",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 16,
             "name": "a list of \"Houses\" in \"Coventry\" are displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Houses\"",
-                  "offset": 10
-                },
-                {
-                  "val": "\"Coventry\"",
-                  "offset": 22
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 17,
-            "name": "application should be closed.",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.application_should_be_closed()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -454,32 +355,52 @@
         "steps": [
           {
             "result": {
-              "duration": 5242400900,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
             "name": "I am on Zoopla Homepage",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_am_on_zoopla_homepage()"
-            },
+            "match": {},
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-21T15:14:43.767Z",
-        "line": 37,
+        "start_timestamp": "2021-01-28T20:25:46.285Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5605427700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.hooks.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 36,
         "name": "Customer can search for properties for sale.",
         "description": "",
         "id": "search-properties-for-sale;customer-can-search-for-properties-for-sale.;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:46375\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027PAUL\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)\r\n\tat co.uk.Zoopla.Common.BrowserClass.quitBrowser(BrowserClass.java:101)\r\n\tat co.uk.Zoopla.hooks.hooks.tearDown(hooks.java:22)\r\nCaused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:46375\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)\r\n\tat okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)\r\n\tat okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)\r\n\tat okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)\r\n\tat okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)\r\n\tat co.uk.Zoopla.Common.BrowserClass.quitBrowser(BrowserClass.java:101)\r\n\tat co.uk.Zoopla.hooks.hooks.tearDown(hooks.java:22)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)\r\n\tat io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)\r\n\tat io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:110)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\nCaused by: java.net.ConnectException: Connection refused: no further information\r\n\tat java.base/sun.nio.ch.Net.pollConnect(Native Method)\r\n\tat java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)\r\n\tat java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)\r\n\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)\r\n\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)\r\n\tat java.base/java.net.Socket.connect(Socket.java:648)\r\n\tat okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)\r\n\t... 63 more\r\n",
+              "duration": 4808069500,
+              "status": "failed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.hooks.hooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 26,
+            "line": 25,
             "name": "I enter a \"London\"in the search textbox",
             "match": {},
             "keyword": "When "
@@ -488,17 +409,18 @@
             "result": {
               "status": "skipped"
             },
-            "line": 27,
+            "line": 26,
             "name": "I select \"£200,000\"from Min price dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "200,000",
-                  "offset": 11
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_min_price_dropdown(java.lang.Double)"
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
+            "line": 27,
+            "name": "I select \"£450,000\"from Max price dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -506,28 +428,17 @@
               "status": "skipped"
             },
             "line": 28,
-            "name": "I select \"£450,000\"from Max price dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "450,000",
-                  "offset": 11
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_max_price_dropdown(java.lang.Double)"
-            },
+            "name": "I select \"Houses\"from Property type dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 998000,
               "status": "skipped"
             },
             "line": 29,
-            "name": "I select \"Houses\"from Property type dropdown",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_houses_from_property_type_dropdown()"
-            },
+            "name": "I select \"3+\"from Bedrooms dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -535,16 +446,8 @@
               "status": "skipped"
             },
             "line": 30,
-            "name": "I select \"3+\"from Bedrooms dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 10
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_from_bedrooms_dropdown(java.lang.Integer)"
-            },
+            "name": "I click on Search button",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -552,42 +455,17 @@
               "status": "skipped"
             },
             "line": 31,
-            "name": "I click on Search button",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 32,
             "name": "a list of \"Houses\" in \"London\" are displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Houses\"",
-                  "offset": 10
-                },
-                {
-                  "val": "\"London\"",
-                  "offset": 22
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 33,
+            "line": 32,
             "name": "application should be closed.",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.application_should_be_closed()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -601,52 +479,71 @@
         "steps": [
           {
             "result": {
-              "duration": 5268244500,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
             "name": "I am on Zoopla Homepage",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_am_on_zoopla_homepage()"
-            },
+            "match": {},
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-21T15:14:49.023Z",
-        "line": 38,
+        "start_timestamp": "2021-01-28T20:25:56.711Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5521247300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.hooks.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 37,
         "name": "Customer can search for properties for sale.",
         "description": "",
         "id": "search-properties-for-sale;customer-can-search-for-properties-for-sale.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 676146100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.hooks.hooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 26,
+            "line": 25,
             "name": "I enter a \"Birmingham\"in the search textbox",
             "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 883400,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I select \"£200,000\"from Min price dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
               "status": "skipped"
             },
             "line": 27,
-            "name": "I select \"£200,000\"from Min price dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "200,000",
-                  "offset": 11
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_min_price_dropdown(java.lang.Double)"
-            },
+            "name": "I select \"£400,000\"from Max price dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -654,16 +551,8 @@
               "status": "skipped"
             },
             "line": 28,
-            "name": "I select \"£400,000\"from Max price dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "400,000",
-                  "offset": 11
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_max_price_dropdown(java.lang.Double)"
-            },
+            "name": "I select \"Houses\"from Property type dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -671,10 +560,8 @@
               "status": "skipped"
             },
             "line": 29,
-            "name": "I select \"Houses\"from Property type dropdown",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_houses_from_property_type_dropdown()"
-            },
+            "name": "I select \"3+\"from Bedrooms dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -682,16 +569,8 @@
               "status": "skipped"
             },
             "line": 30,
-            "name": "I select \"3+\"from Bedrooms dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 10
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_from_bedrooms_dropdown(java.lang.Integer)"
-            },
+            "name": "I click on Search button",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -699,42 +578,17 @@
               "status": "skipped"
             },
             "line": 31,
-            "name": "I click on Search button",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 32,
             "name": "a list of \"Houses\" in \"Birmingham\" are displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Houses\"",
-                  "offset": 10
-                },
-                {
-                  "val": "\"Birmingham\"",
-                  "offset": 22
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 33,
+            "line": 32,
             "name": "application should be closed.",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.application_should_be_closed()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -748,32 +602,51 @@
         "steps": [
           {
             "result": {
-              "duration": 6295703100,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
             "name": "I am on Zoopla Homepage",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_am_on_zoopla_homepage()"
-            },
+            "match": {},
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-21T15:14:54.311Z",
-        "line": 39,
+        "start_timestamp": "2021-01-28T20:26:02.921Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5586854900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.hooks.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 38,
         "name": "Customer can search for properties for sale.",
         "description": "",
         "id": "search-properties-for-sale;customer-can-search-for-properties-for-sale.;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 729668200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.hooks.hooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 26,
+            "line": 25,
             "name": "I enter a \"Coventry\"in the search textbox",
             "match": {},
             "keyword": "When "
@@ -782,17 +655,18 @@
             "result": {
               "status": "skipped"
             },
-            "line": 27,
+            "line": 26,
             "name": "I select \"£250,000\"from Min price dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "250,000",
-                  "offset": 11
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_min_price_dropdown(java.lang.Double)"
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
+            "line": 27,
+            "name": "I select \"£300,000\"from Max price dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -800,28 +674,17 @@
               "status": "skipped"
             },
             "line": 28,
-            "name": "I select \"£300,000\"from Max price dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "300,000",
-                  "offset": 11
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_£_from_max_price_dropdown(java.lang.Double)"
-            },
+            "name": "I select \"Houses\"from Property type dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 467600,
               "status": "skipped"
             },
             "line": 29,
-            "name": "I select \"Houses\"from Property type dropdown",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_houses_from_property_type_dropdown()"
-            },
+            "name": "I select \"3+\"from Bedrooms dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -829,16 +692,8 @@
               "status": "skipped"
             },
             "line": 30,
-            "name": "I select \"3+\"from Bedrooms dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 10
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_select_from_bedrooms_dropdown(java.lang.Integer)"
-            },
+            "name": "I click on Search button",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -846,42 +701,17 @@
               "status": "skipped"
             },
             "line": 31,
-            "name": "I click on Search button",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 32,
             "name": "a list of \"Houses\" in \"Coventry\" are displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Houses\"",
-                  "offset": 10
-                },
-                {
-                  "val": "\"Coventry\"",
-                  "offset": 22
-                }
-              ],
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 33,
+            "line": 32,
             "name": "application should be closed.",
-            "match": {
-              "location": "co.uk.Zoopla.StepsDefinitions.ForSaleSearchSteps.application_should_be_closed()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
