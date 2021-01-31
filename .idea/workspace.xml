@@ -14,30 +14,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5ab45cb-61e4-48cb-9666-f04938986535" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/basePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/errorPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/homePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/productDetailsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/searchResultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/StepsDefinition/Zoopla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/hooks/hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Debenhams/Features/Test Background Feature.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Debenhams/StepsDefinition/BackGround_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co.uk.zoopla.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com.Debenhams.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Common/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Common/Drivers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Features/CustomerCanSEarchForPropertyForSale.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Features/CustomerCanSEarchForPropertyForSale.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/StepsDefinitions/ForSaleSearchSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_3241585046.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_3241585046.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/uk/Zoopla/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Debenhams/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Debenhams/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Common/BrowserClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Debenhams/Common/BrowserClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Common/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Debenhams/Common/Drivers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Features/CustomerCanSEarchForPropertyForSale.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/basePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Debenhams/Pages/basePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/errorPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Debenhams/Pages/errorPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Debenhams/Pages/homePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/productDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Debenhams/Pages/productDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/searchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Debenhams/Pages/searchResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Debenhams/Runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/StepsDefinition/Zoopla.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/hooks/hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Debenhams/hooks/hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/uk/Zoopla/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Common/Drivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Common/Drivers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/StepsDefinitions/ForSaleSearchSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Common/BrowserClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Common/Drivers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Pages/basePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Pages/errorPages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Pages/homePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Pages/productDetailsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Pages/searchResultPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Runner/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/StepsDefinition/Zoopla.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/hooks/hooks.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,15 +82,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="add_unversioned_files" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="JUnit.TestRunner (1)">
     <configuration name="Scenario: Customer can search for properties for sale." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Features/CustomerCanSEarchForPropertyForSale.feature" />
       <option name="GLUE" value="co.uk.Zoopla.hooks co.uk.Zoopla.StepsDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="co.uk.zoopla" />
+      <module name="com.Debenhams" />
       <option name="NAME_FILTER" value="^Customer can search for properties for sale\.$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Customer can search for properties for sale\.$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Customer can search for properties for sale." />
@@ -97,8 +105,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="co.uk.zoopla" />
+    <configuration name="TestRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Debenhams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Debenhams.Runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Debenhams.Runner" />
+      <option name="MAIN_CLASS_NAME" value="com.Debenhams.Runner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="com.Debenhams" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="co.uk.Zoopla.Runner.*" />
@@ -112,9 +135,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="com.Debenhams" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="com.Debenhams" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="JUnit.TestRunner (1)" />
         <item itemvalue="Cucumber Java.Scenario: Customer can search for properties for sale." />
       </list>
     </recent_temporary>
@@ -157,26 +227,30 @@
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
     <state x="2239" y="143" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1610770742037" />
-    <state width="1237" height="173" key="GridCell.Tab.0.bottom" timestamp="1611864893218">
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom" timestamp="1612099514074">
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
     <state width="1237" height="89" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611784603514" />
-    <state width="1237" height="173" key="GridCell.Tab.0.bottom/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1611864893218" />
-    <state width="1237" height="173" key="GridCell.Tab.0.center" timestamp="1611864893218">
+    <state width="1877" height="173" key="GridCell.Tab.0.bottom/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612090713442" />
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1612099514074" />
+    <state width="1237" height="181" key="GridCell.Tab.0.center" timestamp="1612099514074">
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
     <state width="1237" height="89" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611784603514" />
-    <state width="1237" height="173" key="GridCell.Tab.0.center/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1611864893218" />
-    <state width="1237" height="173" key="GridCell.Tab.0.left" timestamp="1611864893218">
+    <state width="1877" height="173" key="GridCell.Tab.0.center/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612090713441" />
+    <state width="1237" height="181" key="GridCell.Tab.0.center/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1612099514074" />
+    <state width="1237" height="181" key="GridCell.Tab.0.left" timestamp="1612099514073">
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
     <state width="1237" height="89" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611784603514" />
-    <state width="1237" height="173" key="GridCell.Tab.0.left/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1611864893218" />
-    <state width="1237" height="173" key="GridCell.Tab.0.right" timestamp="1611864893218">
+    <state width="1877" height="173" key="GridCell.Tab.0.left/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612090713441" />
+    <state width="1237" height="181" key="GridCell.Tab.0.left/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1612099514073" />
+    <state width="1237" height="181" key="GridCell.Tab.0.right" timestamp="1612099514074">
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
     <state width="1237" height="89" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611784603514" />
-    <state width="1237" height="173" key="GridCell.Tab.0.right/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1611864893218" />
+    <state width="1877" height="173" key="GridCell.Tab.0.right/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612090713441" />
+    <state width="1237" height="181" key="GridCell.Tab.0.right/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1612099514074" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1611425112380">
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
@@ -193,20 +267,20 @@
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1611425112379" />
-    <state x="2091" y="0" key="Maven.ArtifactSearchDialog" timestamp="1611251043629">
+    <state x="2091" y="0" key="Maven.ArtifactSearchDialog" timestamp="1612098479557">
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
     <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1611183769008" />
-    <state x="2091" y="0" key="Maven.ArtifactSearchDialog/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1611251043629" />
+    <state x="2091" y="0" key="Maven.ArtifactSearchDialog/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1612098479557" />
     <state x="2357" y="43" key="RollbackChangesDialog" timestamp="1611842383841">
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
     <state x="2357" y="43" key="RollbackChangesDialog/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1611842383841" />
-    <state x="2062" y="0" key="SettingsEditor" timestamp="1611270480152">
+    <state x="2062" y="0" key="SettingsEditor" timestamp="1612099116980">
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1611183417087" />
-    <state x="2062" y="0" key="SettingsEditor/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1611270480152" />
+    <state x="2062" y="0" key="SettingsEditor/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1612099116980" />
     <state x="2098" y="65" width="925" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1611311873028">
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
@@ -215,11 +289,11 @@
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
     <state x="1920" y="0" width="585" height="693" key="find.popup/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1611272324516" />
-    <state x="2304" y="267" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1611423585493">
+    <state x="2304" y="267" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1611867697549">
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
     <state x="384" y="262" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1611187088193" />
-    <state x="2304" y="267" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1611423585493" />
+    <state x="2304" y="267" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/1920.0.1280.693/3840.0.1920.1040/0.0.1920.1040@1920.0.1280.693" timestamp="1611867697549" />
     <state x="2356" y="88" key="refactoring.ChangeSignatureDialog" timestamp="1611843821970">
       <screen x="1920" y="0" width="1280" height="693" />
     </state>
